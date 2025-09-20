@@ -1,3 +1,3 @@
 #!/bin/bash 
 
-echo "Hello World!- Hot fixed push  "
+echo "Hello World!- Hot fixed push  test"
