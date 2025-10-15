@@ -1,0 +1,12 @@
+---
+
+- hosts: all
+  become: true 
+  user: jenkins
+
+  roles:
+    - deloy_webserver
+
+
+
+

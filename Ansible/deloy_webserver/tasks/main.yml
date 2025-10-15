@@ -1,0 +1,16 @@
+---
+# tasks file for deloy_webserver
+- name: copy artifacts
+  ansible.builtin.copy:
+    src: simple-webapp.war
+    dest: /opt/tomcat/webapps/
+
+- name: install tree
+  ansible.builtin.package:
+    name: tree
+    state: present
+
+
+
+
+
